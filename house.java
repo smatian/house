@@ -1,0 +1,73 @@
+// house 
+import gpdraw.*;
+public class house {
+    public static void main(String[] args) {
+        DrawingTool marker; //name an object
+        SketchPad poster;
+       
+        poster = new SketchPad(500,500);
+        marker = new DrawingTool(poster);
+        //make house shape
+        marker.up();
+        marker.move(-200,-200);
+        marker.down();
+        marker.move(-200,50);
+        marker.move(0,200);
+        marker.move(200,50);
+        marker.move(200,-200);
+        marker.move(-200,-200);
+        marker.up();
+        marker.move(-200,50);
+        marker.down();
+        marker.move(200,50);
+        marker.up();
+        //make doorshape
+        marker.move(-50,-200);
+        marker.down();
+        marker.move(-50,-25);
+        marker.move(50,-25);
+        marker.move(50,-200);
+        marker.move(-50,-200);
+        marker.up();
+        marker.move(43,-122);
+        marker.down();
+        marker.move(35,-122);
+        marker.up();
+        //window time #1
+        marker.move(-132,-50);
+        marker.down();
+        marker.move(-152,-50);
+        marker.move(-152,-30);
+        marker.move(-132,-30);
+        marker.move(-132,-50);
+        marker.move(-132,-70);
+        marker.move(-152,-70);
+        marker.move(-152,-50);
+        marker.move(-112,-50);
+        marker.move(-112,-30);
+        marker.move(-132,-30);
+        marker.move(-132,-70);
+        marker.move(-112,-70);
+        marker.move(-112,-50);
+        marker.up();
+        //window time #2
+        marker.move(132,-50);
+        marker.down();
+        marker.move(152,-50);
+        marker.move(152,-30);
+        marker.move(132,-30);
+        marker.move(132,-50);
+        marker.move(132,-70);
+        marker.move(152,-70);
+        marker.move(152,-50);
+        marker.move(112,-50);
+        marker.move(112,-30);
+        marker.move(132,-30);
+        marker.move(132,-70);
+        marker.move(112,-70);
+        marker.move(112,-50);
+        marker.up();
+       
+    }
+   
+}
